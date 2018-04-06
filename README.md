@@ -4,17 +4,17 @@
 
 **Document Type**
 
-[![Inline docs](http://inch-ci.org/github/JavaScript-Jedis/team-project.svg?branch=master)](http://inch-ci.org/github/JavaScript-Jedis/team-project)
+[![Inline docs](http://inch-ci.org/github/JavaScript-Jedis/team-project.svg)](http://inch-ci.org/github/JavaScript-Jedis/team-project)
 
 **Test Coverage**
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/dbe68b5e4ffa7f9efd24/test_coverage)](https://codeclimate.com/github/JavaScript-Jedis/team-project/test_coverage)
-[![Coverage Status](https://coveralls.io/repos/github/JavaScript-Jedis/team-project/badge.svg?branch=master)](https://coveralls.io/github/JavaScript-Jedis/team-project?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/JavaScript-Jedis/team-project/badge.svg)](https://coveralls.io/github/JavaScript-Jedis/team-project)
 
 **Tests Passing**
 
 [![Build Status](https://travis-ci.org/JavaScript-Jedis/team-project.svg?branch=master)](https://travis-ci.org/JavaScript-Jedis/team-project)
-[![Build status](https://ci.appveyor.com/api/projects/status/s0y4h3rgs17n9kcf/branch/master?svg=true)](https://ci.appveyor.com/project/irwindougie/team-project/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/s0y4h3rgs17n9kcf?svg=true)](https://ci.appveyor.com/project/irwindougie/team-project)
 
 **Security Risks**
 
