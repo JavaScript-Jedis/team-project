@@ -14,6 +14,7 @@
 **Tests Passing**
 
 [![Build Status](https://travis-ci.org/JavaScript-Jedis/team-project.svg?branch=master)](https://travis-ci.org/JavaScript-Jedis/team-project)
+[![Build status](https://ci.appveyor.com/api/projects/status/s0y4h3rgs17n9kcf/branch/master?svg=true)](https://ci.appveyor.com/project/irwindougie/team-project/branch/master)
 
 **Security Risks**
 
