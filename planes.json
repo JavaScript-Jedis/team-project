@@ -1,0 +1,57 @@
+{
+    "plane": [{
+            "Title": "F-16",
+            "descr":"The F-16C “Fighting Falcon” is a single-engine multi-role fighter aircraft originally developed for the United States Air Force (USAF). Designed as an air superiority day fighter, the aircraft evolved into a successful all-weather multirole platform. The F-16C features an internal M61 Vulcan cannon and multiple locations for mounting weapons and other mission equipment. Operating in nearly 30 countries to this day, the F-16 has distinguished its place in aviation history.",
+            "review": "",
+            "picture": [
+                "F-16_1.JPG",
+                "F-16_2.JPG",
+                "F-16_3.JPG",
+                "F-16_4.JPG"
+            ]
+        },
+        {
+            "Title": "Cirrus SR22T",
+            "descr":"The Cirrus SR22T is a sleek civilian aircraft based off the SR20 but with a larger wing, higher fuel capacity, and a more powerful, 310-horsepower engine.  E-flite has brought the SR22T to the RC market faithfully emulating the profile with excellent features and scale appeal. The lighting package is very scale.  Enjoy those dawn or dusk sorties with the help of strobe, NAV, flashing tail and landing LED lights.  The wing is ridiculously easy to install thanks to the hands-free servo connect system.  The durable tricycle landing gear and oversized wheels make takeoffs on most surfaces simple.  The 10-size brushless motor creates a power system that creates ample power and thrust.  This is a model that is sure to turn heads at your flying field.",
+            "review": "",
+            "picture": [
+                "CirrusSR22T_1.JPG",
+                "CirrusSR22T_2.JPG",
+                "CirrusSR22T_3.JPG",
+                "CirrusSR22T_4.JPG"
+            ]
+        },
+        {
+            "Title": "Glider",
+            "descr":"The E-flite UMX™ Radian is a powered sailplane that packs all the simple fun of the larger ParkZone Radian into a much smaller package that’s an absolute delight to fly. AS3X technology gives a pilot the feeling of flying a much larger glider especially outdoors because of its renowned ability to smooth out the effects of wind and turbulence. Its distinctively curved wing delivers outstanding lift and impressive glide ratio using 3-channel control simplicity. The lightweight brushed power system requires just a single-cell Li-Po battery to provide excellent launch performance and long flight times. Plus the one-piece wing can be easily removed and stored in the handle-equipped box making your ability to soar through the clouds as convenient as can be.",
+            "review": "",
+            "picture": [
+                "Glider_1.JPG",
+                "Glider_2.JPG",
+                "Glider_3.JPG",
+                "Glider_4.JPG"
+            ]
+        },
+        {
+            "Title": "Spitfire",
+            "descr":"The Supermarine Spitfire is arguably the most iconic British fighter of World War II. Renowned both for its beauty and its warfighting utility, over 20,000 Spitfires were produced over a period of 10 years in more than 20 variants. The Spitfire’s versatility was unmatched, as it served in many roles in all major theatres. From a front line fighter to high altitude inceptor, including roles as a reconnaissance platform and fighter bomber, the Spitfire was the backbone of the Royal Air Force after the Battle of Britain. Powered by Rolls-Royce Merlin and later Griffon engines, the Spitfire maintained an edge throughout the war as a superior warplane.",
+            "review": "",
+            "picture": [
+                "Spitfire_1.JPG",
+                "Spitfire_2.JPG",
+                "Spitfire_3.JPG",
+                "Spitfire_4.JPG"
+            ]
+        },
+        {
+            "Title": "P-38 Lightning",
+            "descr":"The legendary P-38 “Lightning” revolutionized aviation history in World War II. Designed by a skilled team of engineers led by Clarence Johnson and Hal Hibbard, the P-38 was the only American fighter that was continually produced from before Pearl Harbor in 1941 to after the Japanese surrender in 1945. Over 9,900 P-38s were built, 3,810 of which were the superior P-38L variant. Revered by its foes as the “fork tailed devil”, the P-38 excelled as a fighter, interceptor, reconnaissance platform, long range escort, and as a ground attack aircraft. The aircraft also famously shot down Admiral Isoroku Yamamoto’s aircraft during “Operation Vengeance” on April 18, 1943.",
+            "review": "",
+            "picture": [
+                "P-38Lightning_1.JPG",
+                "P-38Lightning_2.JPG",
+                "P-38Lightning_3.JPG",
+                "P-38Lightning_4.JPG"
+            ]
+        }]
+}
