@@ -2,7 +2,10 @@
     "plane": [{
             "Title": "F-16",
             "descr":"The F-16C “Fighting Falcon” is a single-engine multi-role fighter aircraft originally developed for the United States Air Force (USAF). Designed as an air superiority day fighter, the aircraft evolved into a successful all-weather multirole platform. The F-16C features an internal M61 Vulcan cannon and multiple locations for mounting weapons and other mission equipment. Operating in nearly 30 countries to this day, the F-16 has distinguished its place in aviation history.",
-            "review": "",
+            "review": "The 70mm( diameter of the fan motor ) F-16 is a very sought after size jet with an electric ducted fan or EDF for short. For the price, you get an amazing looking aircraft with electric retracts and great performance. It can reach speeds of over 100mph right out of the box. Also available are electric retracts with working suspension which aid in absorbing a less than perfect landing. For those that want a more aggressive look, I would suggest the optional missile ordinance weapon kit. Keep in mind this is not an EDF for beginners, but a solid choice for your second or third jet in your collection. The basic design as with all jets is an airframe built for speed not necessarily slow and stable flights. The pilot has to get use to the delay in power as it takes a second for these fan units to develop thrust. These modern EDF jets have been designed by factory engineers to overcome some of the more unfavorable flying traits in an RC model aircraft. Although they appear almost scale and look like the real thing, design changes to the thickness of the wings and some exaggeration of the airfoil to generate more lift at slow speeds has been done. It shows in the flight envelope of this plane from its top speed to manageable landings, it is a great performer.",
+            "type": "Jet",
+            "rating": 5,
+            "price": "$310.00",
             "picture": [
                 "F-16_1.JPG",
                 "F-16_2.JPG",
@@ -13,7 +16,10 @@
         {
             "Title": "Cirrus SR22T",
             "descr":"The Cirrus SR22T is a sleek civilian aircraft based off the SR20 but with a larger wing, higher fuel capacity, and a more powerful, 310-horsepower engine.  E-flite has brought the SR22T to the RC market faithfully emulating the profile with excellent features and scale appeal. The lighting package is very scale.  Enjoy those dawn or dusk sorties with the help of strobe, NAV, flashing tail and landing LED lights.  The wing is ridiculously easy to install thanks to the hands-free servo connect system.  The durable tricycle landing gear and oversized wheels make takeoffs on most surfaces simple.  The 10-size brushless motor creates a power system that creates ample power and thrust.  This is a model that is sure to turn heads at your flying field.",
-            "review": "",
+            "review": "I would consider the Cirrus SR22T to be a great second plane for new pilots to add to their collection. This aircraft comes in an almost ready to fly configuration, but will require a 6 channel Spektrum radio, a 2200mah battery, and of course, a battery charger. This plane is easy to assemble and in a few short hours, you are ready to fly. This aircraft comes with a very advanced receiver and includes multiple flight modes. One of which, safe mode, will return the plane to a level position and maintain a straight path as soon as the joysticks are released. This helps the pilot regain control if orientation is lost. This mode in conjunction with some throttle management can almost allow the plane to land itself. The Cirrus is highly visible and with no bad habits during flight such as sudden stall without warning and no pitch or roll sensitivity. This plane is easy to fly and with safe mode turned off, it will perform any aerobatic maneuvers you could want. Last but not least, this is a large 60 inch wingspan aircraft that can be broken-down quickly in order to transport it. There are only two screws that need to be removed in order to detach the wings, no wires to unplug, which is a much needed convenience for a lot of pilots.",
+            "type": "Civilian Aircraft",
+            "rating": 4,
+            "price": "$160.00",
             "picture": [
                 "CirrusSR22T_1.JPG",
                 "CirrusSR22T_2.JPG",
@@ -22,9 +28,12 @@
             ]
         },
         {
-            "Title": "Glider",
+            "Title": "UMX Radian",
             "descr":"The E-flite UMX™ Radian is a powered sailplane that packs all the simple fun of the larger ParkZone Radian into a much smaller package that’s an absolute delight to fly. AS3X technology gives a pilot the feeling of flying a much larger glider especially outdoors because of its renowned ability to smooth out the effects of wind and turbulence. Its distinctively curved wing delivers outstanding lift and impressive glide ratio using 3-channel control simplicity. The lightweight brushed power system requires just a single-cell Li-Po battery to provide excellent launch performance and long flight times. Plus the one-piece wing can be easily removed and stored in the handle-equipped box making your ability to soar through the clouds as convenient as can be.",
-            "review": "",
+            "review": "This small glider has really been a big surprise and quite the bang for your buck. At less than $100 dollars, it comes almost ready to fly right out of the box. It contains a built-in receiver with an AS3X gyro and will bind right up to any 4 channel SpeKtrum radio. Also included, is a battery and charger.  Flying this small wonder, is a joy. It is easy to handle, stable, and will return to a level flight pattern by itself, should you remove your hands from the controls. You can fly this aircraft slowly and low to the ground, which makes it an ideal candidate for the average beginner. The glider can be hand-launched for take offs and landed on a small section of grass in your front or backyard. Directional controls are all done via the right stick with the throttle being handled by the left joystick which keeps everything simple for the novice pilot. If you are new to the hobby or an experienced veteran looking for a park-flyer, this plane will fit the bill.",
+            "type": "Glider",
+            "rating": 5,
+            "price": "$60.00",
             "picture": [
                 "Glider_1.JPG",
                 "Glider_2.JPG",
@@ -35,7 +44,10 @@
         {
             "Title": "Spitfire",
             "descr":"The Supermarine Spitfire is arguably the most iconic British fighter of World War II. Renowned both for its beauty and its warfighting utility, over 20,000 Spitfires were produced over a period of 10 years in more than 20 variants. The Spitfire’s versatility was unmatched, as it served in many roles in all major theatres. From a front line fighter to high altitude inceptor, including roles as a reconnaissance platform and fighter bomber, the Spitfire was the backbone of the Royal Air Force after the Battle of Britain. Powered by Rolls-Royce Merlin and later Griffon engines, the Spitfire maintained an edge throughout the war as a superior warplane.",
-            "review": "",
+            "review": "The British Spitfire, like most World War II warbirds, is a very popular model aircraft. In fact, warbirds make up the majority of the sales and most of those purchased are tail-draggers. A tail-dragger is where the wheel associated with the steering is on the back of the plane with the rudder. This makes for a different take off and landing unique to these aircraft. The pilot must master this technique in order to maintain control on both the take off and the landing while the rest of the plane maneuvers like any other RC aircraft. The Spitfire is a lovely plane to behold with its sleek silhouette and the only warbird to have a retractable main gear. The gear folds out and up into the wings as apposed to folding inward as all other warbirds. This gives one a true sense of flying a piece of aviation history. This plane is offered as a plug n play(PnP), which means you supply the radio, receiver and battery. When choosing a battery, I find it best not to go beyond a 3000mah. This will keep the weight down, which will allow you to land more easily. It will also assist with the pitch sensitivity in regards to the elevator, because there is less mass up front in the nose of the plane. While we’re on the topic of batteries, this plane flies on a four cell pack with a 1200mm wingspan. This makes for a very high performance plane with great speed considering the power level, which is usually found in planes with a 200-300mm larger wingspan. This really adds to the enjoyment factor when flying this warbird.",
+            "type": "Warbird",
+            "rating": 4,
+            "price": "$150.00",
             "picture": [
                 "Spitfire_1.JPG",
                 "Spitfire_2.JPG",
@@ -46,7 +58,10 @@
         {
             "Title": "P-38 Lightning",
             "descr":"The legendary P-38 “Lightning” revolutionized aviation history in World War II. Designed by a skilled team of engineers led by Clarence Johnson and Hal Hibbard, the P-38 was the only American fighter that was continually produced from before Pearl Harbor in 1941 to after the Japanese surrender in 1945. Over 9,900 P-38s were built, 3,810 of which were the superior P-38L variant. Revered by its foes as the “fork tailed devil”, the P-38 excelled as a fighter, interceptor, reconnaissance platform, long range escort, and as a ground attack aircraft. The aircraft also famously shot down Admiral Isoroku Yamamoto’s aircraft during “Operation Vengeance” on April 18, 1943.",
-            "review": "",
+            "review": "The P-38 Lightning, also known as the Fork-tailed Devil, is hands-down one of the most famous aircraft of all time. This foam version is the largest, most detailed and highest quality kit of its kind in the world. This particular model took over four years to develop, and believe me, no detail was overlooked. This plane is simply gorgeous to see in person. Whether on the ground or in the air, with a 63 inch wingspan, this aircraft is impressive. Graceful to fly, but be aware it does posses some minor stall characteristics, which can cause issues for the less-experienced pilots out there. For instance, if you get too slow in a tight turn this can cause a wingtip stall. As with other warbirds, using the rudder while turning can minimize this problem. When landing, keep at least 25 percent throttle or slightly less, this is a heavy model and tends not to glide so well. As the old saying goes, you fly it to the ground. This is one of the more complicated foam kits to build and even more complex is the wiring. It is not intended for a beginner due to its twin-engine layout, which can cause confusion regarding its doubled electronic components. My personal P-38 is finished in the California Cutie scheme with the custom painted invasion strips. The nose art, which is available from Callie Graphics, makes this one a bit more unique.",
+            "type": "Twin-Engine Warbird",
+            "rating": 5,
+            "price": "$525.00",
             "picture": [
                 "P-38Lightning_1.JPG",
                 "P-38Lightning_2.JPG",
