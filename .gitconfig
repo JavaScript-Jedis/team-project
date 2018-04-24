@@ -7,7 +7,7 @@
 [color]
     ui = true
 [alias]
-    amend = commit -a --ament
+    amend = commit -a --amend
     branch-name = git branch-name rev-parse --abbrev-ref HEAD
 	lg = log --oneline --decorate --all --graph
 	publish = !git push -u origin $(git branch-name)
