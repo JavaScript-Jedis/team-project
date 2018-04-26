@@ -5,6 +5,6 @@ function loadMenu()
 }
 function loadFooter()
 {
-	var footer = "\"<div class=\"footer\"><center><a>Derek</a></div>";
+	var footer = "<div class=\"footer\"><center><a>Derek</a></div>";
 	document.getElementById("footer").innerHTML = footer;
 }
