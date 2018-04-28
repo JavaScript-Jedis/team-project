@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="js\bootstrap\bootstrap-4.0.0\css\bootstrap.min.css">
+	<link rel="stylesheet" href="js\bootstrap\bootstrap-4.0.0\css\bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/site.css">
+	<script type="text/javascript" src="js/bootstrap/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/menufooterloader.js"></script>
+
+    <title>Planes</title>
+</head>
+<body>
+	<header id="menu">
+		<script>loadMenu();</script>
+	</header>
+
+	<div class="container-fluid col-7 justify-content-center">
+			<div class="row justify-content-center" id="catalogList">
+				<script>
+					function postDetails(index)
+					{
+						document.getElementById('hiddenInput').innerHTML = '<input type="hidden" name="index" value="' + index + '">';
+						document.getElementById('hiddenForm').submit();
+					}
+					$(document).ready(function ()
+					{
+						$.getJSON("planes.json", function(data)
+						{
+							var photoHTML = '';
+							$.each(data, function(key, value)
+							{
+								$.each(value, function(i, plane)
+								{
+									photoHTML += '<div align="center" class="col-md-4"><span class="image"><center><h4>' + plane.Title + '</h4></center>';
+									photoHTML += '<a onclick="postDetails(' + i + ')" >';
+									photoHTML += '<img src="fpPics/' + plane.picture[0] + '"></a></span></div>';
+								});
+							});;
+							document.getElementById("catalogList").innerHTML = photoHTML;
+						});
+					});
+				</script>
+			</div>
+		</div>
+	<form method="POST" action="details.php" id="hiddenForm">
+		<div id="hiddenInput">
+
+		</div>
+	<noscript><button type="submit">Continue</button></noscript>
+	</form>
+</body>
+	<footer id="footer">
+		<script>loadFooter();</script>
+	</footer>
+
+</html>
