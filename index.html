@@ -3,10 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="js\bootstrap\bootstrap-4.0.0\css\bootstrap.min.css">
+	<link rel="stylesheet" href="js\bootstrap\bootstrap-4.0.0\css\bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/site.css">
+	<script type="text/javascript" src="js/bootstrap/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/menufooterloader.js"></script>
+
+    <title>Home</title>
 </head>
 <body>
-    
+	<header id="menu">
+		<script>loadMenu();</script>
+	</header>
+
+	<div class="container-fluid">
+		<div id="photoCarousel" class="carousel row justify-content-center wrapper" data-ride="carousel">
+			<div class="carousel-inner col-7" id="inner-carousel">
+				<script type="text/javascript">
+					var html = '';
+
+					$(document).ready(function()
+					{
+						$.getJSON('fpCarousel.json', function(data)
+						{
+							$.each(data, function(key, value )
+							{
+								$.each(value, function(index, plane)
+								{
+									console.log(index + " " + plane.Title);
+									if (index === 0)
+									{
+										html += '<div class="carousel-item active">'
+									}
+									else
+									{
+										html += '<div class="carousel-item">';
+									}
+									html += '<img class="d-block w-100" src="' + plane.Source + '" alt="' + plane.Title + '"></div>';
+
+								});
+							});
+							console.log(html + "hello?");
+						document.getElementById("inner-carousel").innerHTML = html;
+						});
+
+					});
+
+				</script>
+				<!-- <div class="carousel-item active">
+					<img class="d-block w-100" src="img\homeCarousel\photo1.png" alt="First slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img\homeCarousel\photo2.png" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="img\homeCarousel\photo3.png" alt="Third slide">
+				</div> -->
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+	<div id="homePageInfo" class="row justify-content-center text wrapper">
+			<div class="col-7">
+					<p>
+						So you might be wondering why I began this website, how this information could benefit you, and what does this site offer compared to others?
+					</p>
+					<p>
+						For starters, as a customer service agent working for a major radio-controlled plane and helicopter company, I come in to contact with hundreds
+						 of people a week asking questions about all genres of RC flight. I am personally exposed to problems that arise, feedback from testing and the
+						 solutions to counter these issues, which gives me an advantage others simply won’t have.
+					</p>
+					<p>
+						Working on a team with four other individuals, some of which are professional pilots, we have a combined one hundred plus years of RC experience
+						 and I have the pleasure of drawing from that knowledge pool as well. It has also helped me to understand the most common misunderstood conceptions
+						 people have, and ways I can be of service to them.
+					</p>
+					<p>
+						I enjoy filling in the gaps so customers can get a better understanding of these products and how to more effectively use them, which leads to
+						 greater enjoyment of the hobby. My job also keeps me up-to-date on the latest technologies coming out in the RC industry, and just like
+						 everything else in the world, advancements in electronics are making more things possible everyday. Part of the requirements as an employee
+						 of Motion RC, I am expected to learn these new products and in turn, instruct others via email, chat or over the phone. This represents a
+						 challenge as not all individuals learn the same way. I have to be creative in explaining the product or giving instructions, which is
+						 something I pride myself on being able to accomplish.
+					</p>
+					<p>
+						This website is one of many tools I will utilize to teach needed information effectively to others. Can one person truly know everything about
+						 RC planes and helicopters? Definitely not. Some may give the impression that they do, but I assure you, they do not. This is not a website intended
+						 to convey that I know everything about this industry, just a humble site to share information and perhaps get those burning questions answered.
+					</p>
+			</div>
+	</div>
+	</div>
 </body>
+	<footer id="footer">
+		<script>loadFooter();</script>
+	</footer>
+
 </html>
