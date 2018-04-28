@@ -18,7 +18,7 @@
 	<header id="menu">
 		<script>loadMenu();</script>
 	</header>
-	<div class="container-fluid justify-content-center col-7">
+	<div class="container-fluid justify-content-center col-7 wrapper">
 	<?php
 	$index = (int)$_POST['index'];
 	$json = file_get_contents('planes.json');
